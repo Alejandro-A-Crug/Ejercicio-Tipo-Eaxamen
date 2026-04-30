@@ -20,7 +20,7 @@ class StudentOut(BaseModel):
     id: int
     name: str
     age: int
-
+    #comentario para que cuente
     # class Config:
     #     # orm_mode = True
     #     from_attributes = True

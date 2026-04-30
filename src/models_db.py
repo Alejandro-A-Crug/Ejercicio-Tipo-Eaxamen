@@ -21,6 +21,7 @@ class Student(db.Base):
     # se utiliza al imprimir un student directamente con print
     def __str__(self):
         return " - Nombre: " + self.name + ", Edad: " + str(self.age)
+    #comentario para que cuente
 
     # se utiliza al imprimir una lista de students directamente con print
     def __repr__(self):

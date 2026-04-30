@@ -9,7 +9,7 @@ import db
 from models_db import Student
 
 db.Base.metadata.create_all(db.engine)
-
+#comentario para que cuente
 # Añade Datos iniciales a la tabla
 # lista = [("Ana", 44), ("Ricardo", 37), ("Marina", 32)]
 # for x in lista:
