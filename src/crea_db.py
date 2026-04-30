@@ -18,7 +18,7 @@ if __name__ == '__main__':
     for x in lista:
         db.session.add(Student(x[0], x[1]))
     db.session.commit()
-
+    #comentario para que cuente
     # READ Consultas
     todos = db.session.query(Student).all()
     print("Todos: \n ", todos)
